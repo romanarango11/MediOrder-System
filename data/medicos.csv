@@ -1,0 +1,151 @@
+id,nombre,especialidad,institucion
+M101,Dr. Armando Casas,Oftalmología,Clinica Santa Lucia
+M102,Dra. Belen Rodriguez,Oncología,Centro Oncologico Tunja
+M103,Dr. Cipriano Lopez,Medicina General,Hospital Duitama
+M104,Dr. Daniel Sanabria,Cardiología,Clinica Medilaser
+M105,Dra. Esperanza Gomez,Neurología,Clinica Medilaser
+M106,Dr. Fernando Vallejo,Infectología,Fundacion Cardioinfantil
+M107,Dr. Gonzalo Garcia,Gastroenterología,Hospital San Rafael
+M108,Dra. Helga Martinez,Dermatología,Clinica los Nogales
+M109,Dr. Ismael Quintana,Psiquiatría,IPS Universitaria
+M110,Dra. Josefina Albarracin,Ginecología,Clinica del Country
+M111,Dr. Kevin Barrera,Pediatría,Hospital Meissen
+M112,Dr. Leonardo Bonilla,Ortopedia,Clinica Reina Sofia
+M113,Dra. Martha Carrillo,Urología,Hospital Kennedy
+M114,Dr. Nestor Duarte,Neurología,Clinica Marly
+M115,Dra. Olga Figueroa,Oncología,Instituto Cancerologico
+M116,Dr. Pablo Gutierrez,Cardiología,Clinica Shaio
+M117,Dr. Quique Hernandez,Infectología,Hospital Pablo Tobon
+M118,Dra. Rosa Ibañez,Endocrinología,Clinica Valle del Lili
+M119,Dr. Samuel Jimenez,Gastroenterología,Hospital San Vicente
+M120,Dra. Tatiana Lozano,Oncología,Clinica Imbanaco
+M121,Dr. Ulises Medina,Psiquiatría,Hospital Universitario
+M122,Dra. Victoria Novoa,Ginecología,Clinica de la Mujer
+M123,Dr. William Ospina,Oftalmología,Centro Policlinico
+M124,Dra. Xiomara Parra,Endocrinología,Clinica Palermo
+M125,Dr. Yoel Quintero,Infectología,Hospital Simití
+M126,Dra. Zulma Rincon,Cardiología,Clinica de Occidente
+M127,Dr. Abelardo Soler,Pediatría,Hospital del Sur
+M128,Dra. Beatriz Tellez,Neurología,Clinica El Rosario
+M129,Dr. Cristobal Urrego,Psiquiatría,Hospital La Victoria
+M130,Dra. Doris Valencia,Ortopedia,Clinica San Marcel
+M131,Dr. Edgar Zambrano,Cardiología,Valledupar Medical
+M132,Dra. Fanny Acevedo,Oftalmología,Clinica del Cesar
+M133,Dr. Gabriel Blanco,Infectología,Hospital Rosario Pumarejo
+M134,Dra. Hilda Castro,Dermatología,Centro Medico Valle
+M135,Dr. Ivan Delgado,Medicina General,Clinica Guadalajara
+M136,Dra. Jazmin Espinosa,Ginecología,Hospital del Sol
+M137,Dr. Kleber Franco,Endocrinología,Clinica San Juan
+M138,Dra. Leonor Galvis,Infectología,Centro Isla
+M139,Dr. Mario Hurtado,Oncología,Clinica Nueva York
+M140,Dra. Nora Izquierdo,Urología,Hospital Urbano
+M141,Dr. Orlando Jaramillo,Psiquiatría,Clinica Reggaeton
+M142,Dra. Pilar Kombi,Dermatología,Hospital Conejo
+M143,Dr. Ramiro Luna,Neurología,Clinica Negrito
+M144,Dra. Sara Murcia,Cardiología,Hospital Real
+M145,Dr. Tomas Niño,Gastroenterología,Clinica Calle 13
+M146,Dra. Ursula Ordoñez,Ortopedia,Hospital Abayarde
+M147,Dr. Victor Plata,Psicología,Clinica Filosofo
+M148,Dra. Wendy Quijano,Infectología,Hospital Caballota
+M149,Dr. Xavier Rosas,Urología,Clinica Maravilla
+M150,Dra. Yaneth Saenz,Cardiología,Hospital Criminal
+M151,Dr. Alfonso Triana,Oftalmología,Clinica Santa Lucia
+M152,Dra. Blanca Nieves,Cardiología,Clinica Santa Lucia
+M153,Dr. Cesar Augusto,Pediatría,Hospital Duitama
+M154,Dra. Diana Marcela,Ginecología,Hospital Duitama
+M155,Dr. Efrain Bastidas,Neurología,Clinica Medilaser
+M156,Dra. Flor Maria,Cardiología,Clinica Medilaser
+M157,Dr. Gerardo Monroy,Ortopedia,Fundacion Cardioinfantil
+M158,Dra. Heidy Viviana,Infectología,Fundacion Cardioinfantil
+M159,Dr. Ismael Cala,Urología,Hospital San Rafael
+M160,Dra. Julia Pastrana,Medicina General,Hospital San Rafael
+M161,Dr. Libardo Pinto,Cardiología,Clinica los Nogales
+M162,Dra. Maria Jose,Dermatología,Clinica los Nogales
+M163,Dr. Norberto Peluffo,Pediatría,IPS Universitaria
+M164,Dra. Orfelina Garcia,Ortopedia,IPS Universitaria
+M165,Dr. Pedro Gonzalez,Infectología,Clinica del Country
+M166,Dra. Quintina Rios,Oncología,Clinica del Country
+M167,Dr. Rodolfo Hernandez,Pediatría,Hospital Meissen
+M168,Dra. Stella Maris,Infectología,Hospital Meissen
+M169,Dr. Tulio Recomienda,Medicina General,Clinica Reina Sofia
+M170,Dra. Ubaldina Lopez,Ortopedia,Clinica Reina Sofia
+M171,Dr. Vicente Nario,Psiquiatría,Hospital Kennedy
+M172,Dra. Xiomara Cruz,Urología,Hospital Kennedy
+M173,Dr. Yerlinson Moreno,Oftalmología,Clinica Marly
+M174,Dra. Zenaida Segura,Neurología,Clinica Marly
+M175,Dr. Amadeo Alzate,Infectología,Instituto Cancerologico
+M176,Dra. Beatriz Serna,Oncología,Instituto Cancerologico
+M177,Dr. Carlos Reyes,Cardiología,Clinica Shaio
+M178,Dra. Dorina Perez,Cardiología,Clinica Shaio
+M179,Dr. Enrique Varela,Infectología,Hospital Pablo Tobon
+M180,Dra. Florencia Acosta,Neurología,Hospital Pablo Tobon
+M181,Dr. Gustavo Llanos,Cardiología,Clinica Valle del Lili
+M182,Dra. Helena Mora,Endocrinología,Clinica Valle del Lili
+M183,Dr. Ignacio Suarez,Ortopedia,Hospital San Vicente
+M184,Dra. Juana Fuentes,Gastroenterología,Hospital San Vicente
+M185,Dr. Kamilo Torres,Neurología,Clinica Imbanaco
+M186,Dra. Lorena Vasquez,Oncología,Clinica Imbanaco
+M187,Dr. Mauricio Pinto,Urología,Hospital Universitario
+M188,Dra. Natalia Ruiz,Psiquiatría,Hospital Universitario
+M189,Dr. Omar Duran,Ginecología,Clinica de la Mujer
+M190,Dra. Patricia Gomez,Ginecología,Clinica de la Mujer
+M191,Dr. Raul Espejo,Medicina General,Centro Policlinico
+M192,Dra. Sandra Leal,Oftalmología,Centro Policlinico
+M193,Dr. Simon Quiroga,Endocrinología,Clinica Palermo
+M194,Dra. Teresa Ossa,Endocrinología,Clinica Palermo
+M195,Dr. Uriel Cano,Infectología,Hospital Simití
+M196,Dra. Valentina Cruz,Infectología,Centro Isla
+M197,Dr. Walter Diaz,Infectología,Centro Isla
+M198,Dra. Ximena Forero,Oncología,Clinica Nueva York
+M199,Dr. Yovany Marin,Oncología,Clinica Nueva York
+M200,Dra. Zoraida Arias,Urología,Hospital Urbano
+M201,Dr. Andres Bernal,Urología,Hospital Urbano
+M202,Dra. Bibiana Cano,Psiquiatría,Clinica Reggaeton
+M203,Dr. Camilo Duarte,Psiquiatría,Clinica Reggaeton
+M204,Dra. Daniela Espitia,Dermatología,Hospital Conejo
+M205,Dr. Eduardo Fajardo,Dermatología,Hospital Conejo
+M206,Dra. Fabiola Garcia,Neurología,Clinica Negrito
+M207,Dr. Gonzalo Heredia,Neurología,Clinica Negrito
+M208,Dra. Hortencia Ibarra,Cardiología,Hospital Real
+M209,Dr. Jairo Jimenez,Cardiología,Hospital Real
+M210,Dra. Karen Lara,Gastroenterología,Clinica Calle 13
+M211,Dr. Luis Mejia,Gastroenterología,Clinica Calle 13
+M212,Dra. Miriam Navas,Ortopedia,Hospital Abayarde
+M213,Dr. Nicolas Orozco,Ortopedia,Hospital Abayarde
+M214,Dra. Oliva Pino,Infectología,Hospital Caballota
+M215,Dr. Plinio Quiroz,Infectología,Hospital Caballota
+M216,Dra. Quirina Reyes,Urología,Clinica Maravilla
+M217,Dr. Roberto Santos,Urología,Clinica Maravilla
+M218,Dra. Susana Torres,Cardiología,Hospital Criminal
+M219,Dr. Timoteo Uribe,Cardiología,Hospital Criminal
+M220,Dra. Ursula Vargas,Cardiología,Valledupar Medical
+M221,Dr. Vidal Zapata,Cardiología,Valledupar Medical
+M222,Dra. Wendy Acosta,Oftalmología,Clinica del Cesar
+M223,Dr. Xerxes Blanco,Oftalmología,Clinica del Cesar
+M224,Dra. Yanet Castro,Infectología,Hospital Rosario Pumarejo
+M225,Dr. Zoilo Diaz,Infectología,Hospital Rosario Pumarejo
+M226,Dra. Astrid Echeverry,Dermatología,Centro Medico Valle
+M227,Dr. Boris Franco,Dermatología,Centro Medico Valle
+M228,Dra. Carmen Galindo,Medicina General,Clinica Guadalajara
+M229,Dr. David Henao,Medicina General,Clinica Guadalajara
+M230,Dra. Elena Isaza,Ginecología,Hospital del Sol
+M231,Dr. Felipe Jaramillo,Ginecología,Hospital del Sol
+M232,Dra. Gloria Kuan,Endocrinología,Clinica San Juan
+M233,Dr. Hernan Lopez,Endocrinología,Clinica San Juan
+M234,Dra. Ingrid Molina,Psicología,Clinica Filosofo
+M235,Dr. Javier Nieto,Psicología,Clinica Filosofo
+M236,Dra. Katia Ospina,Infectología,Hospital Caballota
+M237,Dr. Leandro Palacio,Gastroenterología,Hospital San Rafael
+M238,Dra. Monica Quintero,Urología,Hospital San Rafael
+M239,Dr. Narciso Rios,Cardiología,Clinica los Nogales
+M240,Dra. Omaira Silva,Neurología,Clinica los Nogales
+M241,Dr. Patricio Tamayo,Endocrinología,IPS Universitaria
+M242,Dra. Querida Uribe,Psiquiatría,IPS Universitaria
+M243,Dr. Ricardo Varela,Pediatría,IPS Universitaria
+M244,Dra. Sofia Wilches,Ortopedia,Fundacion Cardioinfantil
+M245,Dr. Tiberio Yepes,Cardiología,Fundacion Cardioinfantil
+M246,Dra. Ursula Zuñiga,Pediatría,Hospital Meissen
+M247,Dr. Vladimir Avila,Gastroenterología,Hospital Meissen
+M248,Dra. Wendy Barragan,Ortopedia,Clinica Reina Sofia
+M249,Dr. Xerafin Castillo,Cardiología,Clinica Reina Sofia
+M250,Dra. Yolanda Davila,Gastroenterología,Hospital Kennedy

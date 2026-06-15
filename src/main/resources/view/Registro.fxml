@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<HBox prefHeight="680" prefWidth="1000" spacing="20" styleClass="root-container" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/17.0.12" fx:controller="controller.RegistroController">
+
+    <padding><Insets bottom="20" left="20" right="20" top="20" /></padding>
+
+    <!-- ToggleGroup definido antes de usarse -->
+    <fx:define>
+        <ToggleGroup fx:id="grupoDocs" />
+    </fx:define>
+
+    <!-- Panel izquierdo: formulario -->
+    <VBox prefWidth="400" spacing="14" styleClass="card">
+        <padding><Insets bottom="20" left="20" right="20" top="20" /></padding>
+
+        <Label styleClass="card-titulo" text="Registro de Paciente" />
+        <Separator />
+
+        <!-- Tipo de documento: ToggleGroup referenciado DESPUÉS de definirse -->
+        <Label styleClass="label-campo" text="Tipo de Documento:" />
+        <HBox alignment="CENTER_LEFT" spacing="18">
+            <RadioButton fx:id="rbCC" text="CC (Cédula)">
+            <toggleGroup>
+               <ToggleGroup fx:id="grupoDocs" />
+            </toggleGroup></RadioButton>
+            <RadioButton fx:id="rbCE" text="CE" toggleGroup="$grupoDocs" />
+            <RadioButton fx:id="rbTI" text="TI" toggleGroup="$grupoDocs" />
+        </HBox>
+
+        <Label styleClass="label-campo" text="Número de Documento:" />
+        <TextField fx:id="txtDocumento" promptText="Número de documento" styleClass="campo-texto" />
+
+        <Label styleClass="label-campo" text="Nombre Completo:" />
+        <TextField fx:id="txtNombre" promptText="Nombre completo" styleClass="campo-texto" />
+
+        <Label styleClass="label-campo" text="Edad:" />
+        <TextField fx:id="txtEdad" promptText="Edad" styleClass="campo-texto" />
+
+        <Label styleClass="label-campo" text="Sexo:" />
+        <ComboBox fx:id="cbSexo" prefWidth="220" promptText="Seleccione" styleClass="combo-box" />
+
+        <Label styleClass="label-campo" text="Plan de Salud:" />
+        <ComboBox fx:id="cbPlan" prefWidth="220" promptText="Seleccione" styleClass="combo-box" />
+
+        <!-- CheckBoxes con espacio suficiente para leer el texto -->
+        <VBox spacing="8">
+            <CheckBox fx:id="chkAfiliado" text="Afiliado" />
+            <CheckBox fx:id="chkActivo" text="Activo" />
+            <CheckBox fx:id="chkConvenio" text="Con Convenio" />
+        </VBox>
+
+        <HBox spacing="10">
+            <Button onAction="#onRegistrar" prefWidth="150" styleClass="btn-primario" text="Registrar" />
+            <Button onAction="#onVolverLogin" prefWidth="100" styleClass="btn-secundario" text="Volver" />
+        </HBox>
+    </VBox>
+
+    <!-- Panel derecho: tabla de pacientes -->
+    <VBox spacing="10" styleClass="card" HBox.hgrow="ALWAYS">
+        <padding><Insets bottom="20" left="15" right="15" top="20" /></padding>
+
+        <Label styleClass="card-titulo" text="Pacientes Registrados" />
+        <Separator />
+
+        <TableView fx:id="tablaPacientes" VBox.vgrow="ALWAYS">
+            <columns>
+                <TableColumn fx:id="colTipoDoc" prefWidth="55" text="Tipo" />
+                <TableColumn fx:id="colDocumento" prefWidth="115" text="Documento" />
+                <TableColumn fx:id="colNombre" prefWidth="190" text="Nombre" />
+                <TableColumn fx:id="colEdad" prefWidth="55" text="Edad" />
+                <TableColumn fx:id="colSexo" prefWidth="55" text="Sexo" />
+                <TableColumn fx:id="colPlan" prefWidth="110" text="Plan" />
+                <TableColumn fx:id="colAfiliado" prefWidth="75" text="Afiliado" />
+                <TableColumn fx:id="colActivo" prefWidth="65" text="Activo" />
+                <TableColumn fx:id="colConvenio" prefWidth="80" text="Convenio" />
+            </columns>
+        </TableView>
+    </VBox>
+
+</HBox>

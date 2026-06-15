@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox prefHeight="450" prefWidth="700" spacing="15" styleClass="root-container" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/17.0.12" fx:controller="controller.SeleccionMedicoController">
+
+    <padding><Insets bottom="20" left="20" right="20" top="20" /></padding>
+
+    <Label styleClass="titulo-principal" text="Seleccionar Médico" />
+    <Label fx:id="lblFiltro" styleClass="label-seccion" />
+    <Separator />
+
+    <TableView fx:id="tablaMedicos" VBox.vgrow="ALWAYS">
+        <columns>
+            <TableColumn fx:id="colId" prefWidth="80" text="ID" />
+            <TableColumn fx:id="colNombre" prefWidth="220" text="Nombre" />
+            <TableColumn fx:id="colEspecialidad" prefWidth="160" text="Especialidad" />
+            <TableColumn fx:id="colInstitucion" prefWidth="200" text="Institución" />
+        </columns>
+      <columnResizePolicy>
+         <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+      </columnResizePolicy>
+    </TableView>
+
+    <HBox alignment="CENTER_RIGHT" spacing="15">
+        <Button onAction="#onSeleccionar" styleClass="btn-primario" text="Seleccionar" />
+        <Button onAction="#onCancelar" styleClass="btn-secundario" text="Cancelar" />
+    </HBox>
+
+</VBox>

@@ -1,0 +1,56 @@
+tipoDocumento,documento,nombre,edad,sexo,plan,afiliado,estado,convenio
+CC,1034567821,Carlos Andres Mendoza,35,M,Prepagado,SI,Activo,SI
+CC,84567213,Maria Elena Rodriguez,42,F,Contributivo,SI,Inactivo,NO
+CC,1098765432,Juan Camilo Ospina,29,M,Prepagado,SI,Activo,SI
+CC,56789012,Luz Marina Galeano,51,F,Subsidiado,SI,Activo,NO
+CC,912345678,Ricardo Jose Duarte,38,M,Contributivo,SI,Activo,SI
+CC,45678901,Blanca Ligia Pineda,47,F,Prepagado,SI,Inactivo,NO
+CC,1237894560,Alvaro Enrique Rojas,33,M,Contributivo,SI,Activo,SI
+CC,78901234,Martha Cecilia Soler,56,F,Subsidiado,SI,Activo,NO
+CC,1002345678,Diego Fernando Ortiz,27,M,Prepagado,SI,Activo,SI
+CC,65432109,Gloria Ines Vargas,61,F,Contributivo,SI,Activo,SI
+CC,876543210,Luis Alberto Castañeda,45,M,Subsidiado,SI,Inactivo,NO
+CC,2345678901,Claudia Patricia Mejia,37,F,Contributivo,SI,Activo,SI
+CC,345678912,Jorge Eliecer Ruiz,41,M,Prepagado,SI,Activo,SI
+CC,567123890,Sonia Esperanza Buitrago,53,F,Subsidiado,SI,Activo,NO
+CC,789345612,Fabio Nelson Gomez,39,M,Contributivo,SI,Activo,SI
+CC,901234567,Adriana del Pilar Sierra,31,F,Prepagado,SI,Activo,SI
+CC,432198765,Gustavo Adolfo Prieto,58,M,Subsidiado,SI,Inactivo,NO
+CC,210987654,Sandra Milena Rincon,44,F,Contributivo,SI,Activo,SI
+CC,876501234,Oscar Javier Bernal,36,M,Prepagado,SI,Activo,SI
+CC,345612789,Angela Maria Fonseca,49,F,Subsidiado,SI,Activo,NO
+CC,678901234,Wilson Dario Moreno,40,M,Contributivo,SI,Activo,SI
+CC,890123456,Diana Marcela Beltran,28,F,Prepagado,SI,Inactivo,NO
+CC,567890123,Hernando de Jesus Parra,62,M,Subsidiado,SI,Activo,NO
+CC,1234509876,Paola Andrea Villamil,34,F,Contributivo,SI,Activo,SI
+CC,987654321,Victor Hugo Castellanos,55,M,Prepagado,SI,Activo,SI
+CC,456123789,Nancy Janeth Garzon,46,F,Subsidiado,SI,Activo,NO
+CC,321654987,Mauricio Alexander Silva,32,M,Contributivo,SI,Inactivo,NO
+CC,654987321,Yuly Alexandra Galindo,30,F,Prepagado,SI,Activo,SI
+CC,147258369,Cesar Augusto Acevedo,43,M,Subsidiado,SI,Activo,NO
+CC,258369147,Liliana del Carmen Cruz,57,F,Contributivo,SI,Activo,SI
+CC,369147258,Jose Vicente Guerrero,48,M,Prepagado,SI,Activo,SI
+CC,159753486,Mónica Yazmín Osorio,35,F,Subsidiado,SI,Activo,NO
+CC,753159486,Raul Antonio Lozano,60,M,Contributivo,SI,Inactivo,NO
+CC,852456123,Yolanda Rosa Espitia,52,F,Prepagado,SI,Activo,SI
+CC,951357852,Gabriel Arcangel Rios,38,M,Subsidiado,SI,Activo,NO
+CC,654852147,Pedro Nel Tellez,45,M,Contributivo,SI,Activo,SI
+CC,357159258,Dora Alicia Valbuena,33,F,Prepagado,SI,Activo,SI
+CC,951753852,Jaime Orlando Peña,59,M,Subsidiado,SI,Inactivo,NO
+CC,753258159,Rosa Helena Blanco,41,F,Contributivo,SI,Activo,SI
+CC,159258357,Luis Eduardo Cardenas,37,M,Prepagado,SI,Activo,SI
+CC,258147369,Carmen Elisa Suarez,54,F,Subsidiado,SI,Activo,NO
+CC,369258147,Henry Giovanni Lara,50,M,Contributivo,SI,Inactivo,NO
+CC,147369258,Teresa de Jesus Morales,47,F,Prepagado,SI,Activo,SI
+CC,258963147,Gentil Hernandez Diaz,63,M,Subsidiado,SI,Activo,NO
+CC,369741258,Blanca Nubia Salcedo,58,F,Contributivo,SI,Activo,SI
+CC,741258963,Jhon Jairo Agudelo,36,M,Prepagado,SI,Activo,SI
+CC,852963741,Ligia Stella Barreto,65,F,Subsidiado,SI,Inactivo,NO
+CC,963741852,Humberto de Jesus Marin,42,M,Contributivo,SI,Activo,SI
+CC,159486273,Lida Esperanza Amaya,39,F,Prepagado,SI,Activo,SI
+CC,486273159,Ruben Dario Arango,51,M,Subsidiado,SI,Activo,NO
+TI,1052391752,Julian Samuel Sarache Lopez,17,M,Subsidiado,SI,Activo,NO
+CC,11521370,Sebastian Felipe Calvo Rodriguez,18,M,Contributivo,SI,Activo,NO
+TI,1052391753,Karen Sofia Bez Silva,16,F,Subsidiado,SI,Activo,SI
+CE,11521371,Juan Esteban Rodriguez Leon,19,M,Subsidiado,SI,Activo,SI
+CC,1002740364,Carlos Felipe Arango Pineda,25,M,Contributivo,SI,Activo,SI

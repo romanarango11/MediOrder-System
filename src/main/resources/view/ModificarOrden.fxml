@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox prefHeight="620" prefWidth="900" spacing="15" styleClass="root-container" stylesheets="@estilos.css" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/17.0.12" fx:controller="controller.ModificarOrdenController">
+
+    <padding><Insets bottom="20" left="20" right="20" top="20" /></padding>
+
+    <Label fx:id="lblTitulo" styleClass="titulo-principal" text="Modificar Orden" />
+    <Separator />
+
+    <!-- Información del paciente (solo lectura) -->
+    <VBox spacing="8" styleClass="card">
+        <padding><Insets bottom="12" left="15" right="15" top="12" /></padding>
+        <Label styleClass="card-titulo" text="Información del Paciente (no editable)" />
+        <HBox spacing="30">
+            <VBox spacing="3">
+                <Label styleClass="label-campo" text="Radicado:" />
+                <Label fx:id="lblRadicado" styleClass="label-dato" />
+            </VBox>
+            <VBox spacing="3">
+                <Label styleClass="label-campo" text="Paciente:" />
+                <Label fx:id="lblPaciente" styleClass="label-dato" />
+            </VBox>
+            <VBox spacing="3">
+                <Label styleClass="label-campo" text="Fecha Emisión:" />
+                <Label fx:id="lblFecha" styleClass="label-dato" />
+            </VBox>
+            <VBox spacing="3">
+                <Label styleClass="label-campo" text="Estado:" />
+                <Label fx:id="lblEstado" styleClass="label-dato" />
+            </VBox>
+        </HBox>
+    </VBox>
+
+    <!-- Institución y médico editable -->
+    <VBox spacing="8" styleClass="card">
+        <padding><Insets bottom="12" left="15" right="15" top="12" /></padding>
+        <Label styleClass="card-titulo" text="Institución y Médico" />
+        <HBox alignment="CENTER_LEFT" spacing="20">
+            <VBox spacing="5">
+                <Label styleClass="label-campo" text="Especialidad (basada en CIE-10 del primer procedimiento):" />
+                <Label fx:id="lblEspecialidadMod" styleClass="label-especialidad" />
+            </VBox>
+        </HBox>
+        <HBox alignment="CENTER_LEFT" spacing="20">
+            <VBox spacing="5">
+                <Label styleClass="label-campo" text="Institución:" />
+                <ComboBox fx:id="cbInstitucionMod" onAction="#onCambiarInstitucion" prefWidth="280" promptText="Seleccione institución" styleClass="combo-box" />
+            </VBox>
+            <VBox spacing="5">
+                <Label styleClass="label-campo" text="Médico Asignado:" />
+                <HBox alignment="CENTER_LEFT" spacing="8">
+                    <TextField fx:id="txtMedicoMod" editable="false" prefWidth="240" promptText="Sin seleccionar" styleClass="campo-texto" />
+                    <Button onAction="#onSeleccionarMedicoMod" styleClass="btn-secundario" text="Seleccionar Médico" />
+                </HBox>
+                <Label fx:id="lblIdMedicoMod" styleClass="label-campo" />
+            </VBox>
+        </HBox>
+    </VBox>
+
+    <!-- Procedimientos -->
+    <VBox spacing="8" styleClass="card" VBox.vgrow="ALWAYS">
+        <padding><Insets bottom="12" left="15" right="15" top="12" /></padding>
+
+        <HBox alignment="CENTER_LEFT" spacing="20">
+            <Label styleClass="card-titulo" text="Procedimientos" HBox.hgrow="ALWAYS" />
+            <Button onAction="#onEliminarProcMod" styleClass="btn-peligro" text="Eliminar seleccionado" />
+        </HBox>
+
+        <!-- Agregar procedimiento -->
+        <HBox alignment="CENTER_LEFT" spacing="10">
+            <Label styleClass="label-campo" text="CUPS:" />
+            <TextField fx:id="txtCupsMod" prefWidth="110" promptText="Ej: 200801" styleClass="campo-texto" />
+            <Label styleClass="label-campo" text="CIE-10:" />
+            <TextField fx:id="txtCieMod" prefWidth="90" promptText="Ej: H25" styleClass="campo-texto" />
+            <Label styleClass="label-campo" text="Cant.:" />
+            <TextField fx:id="txtCantidadMod" prefWidth="60" promptText="1" styleClass="campo-texto" />
+            <Button onAction="#onAgregarProcMod" styleClass="btn-agregar" text="+ Agregar" />
+        </HBox>
+        <Label fx:id="lblDescProcMod" styleClass="label-descripcion" wrapText="true" />
+
+        <TableView fx:id="tablaProcsMod" prefHeight="160" VBox.vgrow="ALWAYS">
+            <columns>
+                <TableColumn fx:id="colCupsMod" prefWidth="100" text="CUPS" />
+                <TableColumn fx:id="colCieMod" prefWidth="80" text="CIE-10" />
+                <TableColumn fx:id="colDescMod" prefWidth="300" text="Descripción" />
+                <TableColumn fx:id="colCantMod" prefWidth="80" text="Cantidad" />
+                <TableColumn fx:id="colValorMod" prefWidth="100" text="Valor Unit." />
+                <TableColumn fx:id="colSubtotalMod" prefWidth="100" text="Subtotal" />
+            </columns>
+         <columnResizePolicy>
+            <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+         </columnResizePolicy>
+        </TableView>
+
+        <HBox alignment="CENTER_RIGHT">
+            <Label fx:id="lblTotalMod" styleClass="label-total" text="Total: $0" />
+        </HBox>
+    </VBox>
+
+    <!-- Botones de acción -->
+    <HBox alignment="CENTER_RIGHT" spacing="15">
+        <Button onAction="#onGuardarCambios" styleClass="btn-primario-grande" text="Guardar Cambios" />
+        <Button onAction="#onCancelarMod" styleClass="btn-secundario" text="Cancelar" />
+    </HBox>
+
+</VBox>

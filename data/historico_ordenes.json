@@ -1,0 +1,142 @@
+[
+  {
+    "radicado": 51790,
+    "tipoDocumento": "CC",
+    "documento": "1034567821",
+    "nombrePaciente": "Carlos Andres Mendoza",
+    "edad": 35,
+    "sexo": "M",
+    "plan": "Prepagado",
+    "afiliado": "SI",
+    "convenio": "SI",
+    "medicoId": "M223",
+    "medicoNombre": "Dr. Xerxes Blanco",
+    "especialidad": "Oftalmología",
+    "institucion": "Clinica del Cesar",
+    "ciudadInstitucion": "Valledupar",
+    "procedimientos": [
+      {
+        "cups": "200102",
+        "cie": "H526",
+        "descripcionCups": "TIMPANOTOMÍA CON DRENAJE DE MEMBRANA TIMPÁNICA",
+        "descripcionCie": "OTROS TRASTORNOS DE LA REFRACCION",
+        "cantidad": 2,
+        "valor": 200000.0
+      }
+    ],
+    "total": 400000.0,
+    "estadoOrden": "ACTIVA",
+    "fechaEmision": "09/06/2026",
+    "fechaVencimiento": "09/10/2026",
+    "asesorId": "A01",
+    "asesorNombre": "Manuel Gonzalez",
+    "asesorUltimaAccion": "A40",
+    "nombreUltimaAccion": "Daddy Yankee"
+  },
+  {
+    "radicado": 84452,
+    "tipoDocumento": "CC",
+    "documento": "1098765432",
+    "nombrePaciente": "Juan Camilo Ospina",
+    "edad": 29,
+    "sexo": "M",
+    "plan": "Prepagado",
+    "afiliado": "SI",
+    "convenio": "SI",
+    "medicoId": "M192",
+    "medicoNombre": "Dra. Sandra Leal",
+    "especialidad": "Oftalmología",
+    "institucion": "Centro Policlinico",
+    "ciudadInstitucion": "Bogota",
+    "procedimientos": [
+      {
+        "cups": "200102",
+        "cie": "H250",
+        "descripcionCups": "TIMPANOTOMÍA CON DRENAJE DE MEMBRANA TIMPÁNICA",
+        "descripcionCie": "CATARATA SENIL INCIPIENTE",
+        "cantidad": 1,
+        "valor": 200000.0
+      }
+    ],
+    "total": 200000.0,
+    "estadoOrden": "CANCELADA",
+    "fechaEmision": "10/06/2026",
+    "fechaVencimiento": "10/10/2026",
+    "asesorId": "a01",
+    "asesorNombre": "Manuel Gonzalez"
+  },
+  {
+    "radicado": 50121,
+    "tipoDocumento": "TI",
+    "documento": "1052391752",
+    "nombrePaciente": "Julian Samuel Sarache Lopez",
+    "edad": 17,
+    "sexo": "M",
+    "plan": "Subsidiado",
+    "afiliado": "SI",
+    "convenio": "NO",
+    "medicoId": "M114",
+    "medicoNombre": "Dr. Nestor Duarte",
+    "especialidad": "Neurología",
+    "institucion": "Clinica Marly",
+    "ciudadInstitucion": "Bogota",
+    "procedimientos": [
+      {
+        "cups": "870003",
+        "cie": "G210",
+        "descripcionCups": "RADIOGRAFÍA DE BASE DE CRÁNEO",
+        "descripcionCie": "SINDROME NEUROLEPTICO MALIGNO",
+        "cantidad": 1,
+        "valor": 703000.0
+      },
+      {
+        "cups": "012209",
+        "cie": "A001",
+        "descripcionCups": "REVISIÓN DE ELECTRODO A NERVIO CRANEAL O PERIFÉRICO",
+        "descripcionCie": "COLERA DEBIDO A VIBRIO CHOLERAE 01, BIOTIPO EL TOR",
+        "cantidad": 1,
+        "valor": 58000.0
+      }
+    ],
+    "total": 761000.0,
+    "estadoOrden": "CANCELADA",
+    "fechaEmision": "10/06/2026",
+    "fechaVencimiento": "10/10/2026",
+    "asesorId": "A01",
+    "asesorNombre": "Manuel Gonzalez"
+  },
+  {
+    "radicado": 57545,
+    "tipoDocumento": "CC",
+    "documento": "1098765432",
+    "nombrePaciente": "Juan Camilo Ospina",
+    "edad": 29,
+    "sexo": "M",
+    "plan": "Prepagado",
+    "afiliado": "SI",
+    "convenio": "SI",
+    "medicoId": "M192",
+    "medicoNombre": "Dra. Sandra Leal",
+    "especialidad": "Oftalmología",
+    "institucion": "Centro Policlinico",
+    "ciudadInstitucion": "Bogota",
+    "procedimientos": [
+      {
+        "cups": "200102",
+        "cie": "H250",
+        "descripcionCups": "TIMPANOTOMÍA CON DRENAJE DE MEMBRANA TIMPÁNICA",
+        "descripcionCie": "CATARATA SENIL INCIPIENTE",
+        "cantidad": 2,
+        "valor": 170000.0
+      }
+    ],
+    "total": 340000.0,
+    "estadoOrden": "ACTIVA",
+    "fechaEmision": "10/06/2026",
+    "fechaVencimiento": "10/10/2026",
+    "asesorId": "a01",
+    "asesorNombre": "Manuel Gonzalez",
+    "asesorUltimaAccion": "a01",
+    "nombreUltimaAccion": "Manuel Gonzalez"
+  }
+]
