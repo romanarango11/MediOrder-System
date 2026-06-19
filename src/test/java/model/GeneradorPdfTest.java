@@ -31,7 +31,7 @@ class GeneradorPdfTest {
         }
     }
 
-    // ==================== TEST 1: Orden ACTIVA con radicado 11111 ====================
+    //Test 1: Orden activa con radicado 11111
     @Test
     void testCrearPdfConOrdenActiva() throws Exception {
         int radicado = 11111;
@@ -83,7 +83,7 @@ class GeneradorPdfTest {
         }
     }
 
-    // ==================== TEST 2: Orden CANCELADA con radicado 22222 ====================
+    //Test 2: Orden cancelada con radicado 22222
     @Test
     void testCrearPdfConOrdenCancelada() throws Exception {
         int radicado = 22222;
@@ -126,7 +126,7 @@ class GeneradorPdfTest {
         }
     }
 
-    // ==================== TEST 3: Orden con múltiples procedimientos ====================
+    //Test 3: Orden con múltiples procedimientos
     @Test
     void testCrearPdfConMultiplesProcedimientos() throws Exception {
         int radicado = 33333;
@@ -171,7 +171,7 @@ class GeneradorPdfTest {
         }
     }
 
-    // ==================== TEST 4: Orden sin procedimientos ====================
+    //Test 4: Orden sin procedimientos
     @Test
     void testCrearPdfConOrdenSinProcedimientos() {
         int radicado = 44444;
@@ -193,7 +193,7 @@ class GeneradorPdfTest {
         assertTrue(pdfFile.length() > 0, "El PDF no debe estar vacío");
     }
 
-    // ==================== TEST 5: Verificar que el PDF contiene el total ====================
+    //Test 5: Verificar que el PDF contiene el total
     @Test
     void testVerificarTotalEnPdf() throws Exception {
         int radicado = 55555;
@@ -234,7 +234,7 @@ class GeneradorPdfTest {
         }
     }
 
-    // ==================== TEST 6: Formato de números ====================
+    //Test 6: Formato de números
     @Test
     void testFormatoNumeroTotal() {
         double total = 1234567.89;
@@ -244,7 +244,7 @@ class GeneradorPdfTest {
         assertTrue(esValido, "El formato debe ser $1,234,568 o $1.234.568 pero fue: " + formateado);
     }
 
-    // ==================== TEST 7: Formato de fechas ====================
+    //Test 7: Formato de fechas
     @Test
     void testFormatoFechaOrden() {
         Paciente paciente = new Paciente("CC", "123", "Test", 30, "M", "Plan", true, true, false);

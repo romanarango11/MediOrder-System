@@ -14,7 +14,7 @@ import java.util.List;
 public class PersistenciaManager {
 
 
-    // RUTAS DE ARCHIVOS
+    //Rutas de archivos
 
     private static final String PACIENTES_CSV     = "data/pacientes.csv";
     private static final String ASESORES_CSV      = "data/asesores.csv";
@@ -27,7 +27,7 @@ public class PersistenciaManager {
     private final Gson gson = new GsonBuilder().setPrettyPrinting().create();
 
 
-    // PACIENTES
+    //Pacientes
 
     public List<Paciente> leerPacientes() {
         List<Paciente> lista = new ArrayList<>();
@@ -78,7 +78,7 @@ public class PersistenciaManager {
     }
 
 
-    // ASESORES
+    //Asesores
 
 
     public String[] buscarAsesor(String idAsesor) {
@@ -87,7 +87,7 @@ public class PersistenciaManager {
     }
 
 
-    // INSTITUCIONES
+    //Instituciones
 
 
     public List<Institucion> leerInstituciones() {
@@ -128,7 +128,7 @@ public class PersistenciaManager {
     }
 
 
-    // MÉDICOS
+    //Médicos
 
 
     public List<Medico> leerMedicos() {
@@ -150,7 +150,7 @@ public class PersistenciaManager {
     }
 
 
-    // CUPS
+    //CUPS
 
 
     public String[] buscarCups(String codigo) {
@@ -179,7 +179,7 @@ public class PersistenciaManager {
     }
 
 
-    // CIE-10
+    //CIE-10
 
 
     public String[] buscarCie(String codigo) {
@@ -187,7 +187,7 @@ public class PersistenciaManager {
     }
 
 
-    // ÓRDENES (JSON)
+    //Órdenes(JSON)
 
 
     public List<Orden> leerOrdenes() {
@@ -221,7 +221,7 @@ public class PersistenciaManager {
     }
 
 
-    // UTILIDADES PRIVADAS
+    //Utilidades privadas
 
 
     private String[] buscarEnCsv(String archivo, String valor, int columna) {

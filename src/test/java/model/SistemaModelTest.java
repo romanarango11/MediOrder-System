@@ -31,7 +31,7 @@ class SistemaModelTest {
         field.set(modelo, persistenciaMock);
     }
 
-    // ==================== LOGIN ====================
+    //Login
 
     @Test
     void testLoginAsesorExitoso() {
@@ -54,7 +54,7 @@ class SistemaModelTest {
         assertNull(resultado);
     }
 
-    // ==================== CUPS ====================
+    //Cups
 
     @Test
     void testExisteCups() {
@@ -116,7 +116,7 @@ class SistemaModelTest {
         assertTrue(precioMaximo <= 800000, "El precio no debe superar 800,000. Valor: " + precioMaximo);
     }
 
-    // ==================== CIE-10 ====================
+    //Cie-10
 
     @Test
     void testEspecialidadDesdeCie() {
@@ -148,7 +148,7 @@ class SistemaModelTest {
         assertNull(modelo.descripcionCie("INVALIDO"));
     }
 
-    // ==================== INSTITUCIONES ====================
+    //Instituciones
 
     @Test
     void testInstitucionesPorEspecialidad() {
@@ -186,7 +186,7 @@ class SistemaModelTest {
         assertNull(resultado);
     }
 
-    // ==================== MÉDICOS ====================
+    //Médicos
 
     @Test
     void testMedicosPorEspecialidadEInstitucion() {
@@ -216,7 +216,7 @@ class SistemaModelTest {
         assertEquals(2, resultado.size());
     }
 
-    // ==================== PACIENTES ====================
+    //Pacientes
 
     @Test
     void testValidarPacienteParaOrdenExitoso() throws Exception {
@@ -261,7 +261,7 @@ class SistemaModelTest {
         assertFalse(modelo.documentoYaRegistrado("999"));
     }
 
-    // ==================== ÓRDENES ====================
+    //Órdenes
 
     @Test
     void testCrearOrdenConConvenio() {
@@ -406,7 +406,7 @@ class SistemaModelTest {
         assertFalse(resultado);
     }
 
-    // ==================== RECOMENDACIONES ====================
+    //Recomendaciones
 
     @Test
     void testRecomendarCupsDesdeCie() {

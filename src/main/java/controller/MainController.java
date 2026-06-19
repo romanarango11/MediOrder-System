@@ -54,7 +54,7 @@ public class MainController {
         return asesorId;
     }
 
-   //REGISTRO PACIENTES
+   //Registro pacientes
 
     public List<Paciente> obtenerTodosPacientes() {
 
@@ -72,7 +72,7 @@ public class MainController {
     }
 
 
-    // BÚSQUEDA DE PACIENTE PARA ORDEN
+    //Búsqueda de paciente para orden
 
 
     public String buscarPacienteParaOrden(String cedula) {
@@ -142,7 +142,7 @@ public class MainController {
     }
 
 
-    // INSTITUCIONES
+    //Instituciones
 
 
     public List<Institucion> institucionesPorEspecialidad(String especialidad) {
@@ -155,7 +155,7 @@ public class MainController {
     }
 
 
-    // MÉDICOS
+    //Médicos
 
 
     public List<Medico> medicosPorEspecialidadEInstitucion(String especialidad, String institucion) {
@@ -163,7 +163,7 @@ public class MainController {
     }
 
 
-    // ORDENES
+    //Ordenes
 
 
     public String generarOrden(
@@ -205,7 +205,7 @@ public class MainController {
     }
 
 
-    // HISTORIAL
+    //Historial
 
 
     public List<Orden> obtenerHistorial() {

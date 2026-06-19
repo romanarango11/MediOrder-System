@@ -7,8 +7,6 @@ import java.util.List;
 import java.util.Random;
 
 
- // Modelo principal: contiene la lógica de negocio del sistema.
- //Delega la lectura/escritura de archivos a PersistenciaManager.
 
 public class SistemaModel {
 
@@ -16,7 +14,7 @@ public class SistemaModel {
     private final Random random = new Random();
 
 
-    // PACIENTES
+    // Pacientes
 
 
     public List<Paciente> obtenerTodosPacientes() {
@@ -40,7 +38,7 @@ public class SistemaModel {
     }
 
 
-    // ASESORES / LOGIN
+    // Asesores / Login
 
 
     public String[] loginAsesor(String idAsesor) {
@@ -56,7 +54,7 @@ public class SistemaModel {
     }
 
 
-    // INSTITUCIONES
+    //Instituciones
 
 
     public List<Institucion> obtenerTodasInstituciones() {
@@ -78,7 +76,7 @@ public class SistemaModel {
     }
 
 
-    // MÉDICOS
+    //Médicos
 
 
     public List<Medico> obtenerTodosMedicos() {
@@ -98,7 +96,7 @@ public class SistemaModel {
     }
 
 
-    // CUPS
+    //CUPS
 
 
     public String[] buscarCups(String codigo) {
@@ -130,7 +128,7 @@ public class SistemaModel {
     }
 
 
-    // CIE-10
+    //CIE-10
 
 
     public String[] buscarCie(String codigo) {
@@ -197,7 +195,7 @@ public class SistemaModel {
     }
 
 
-    // ÓRDENES
+    //Órdenes
 
 
     public Orden crearOrden(String asesorId, String asesorNombre,
@@ -270,7 +268,7 @@ public class SistemaModel {
     }
 
 
-    // PDF
+    //Pdf
 
 
     public void generarPdf(Orden orden) {

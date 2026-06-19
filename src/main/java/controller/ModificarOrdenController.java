@@ -58,7 +58,7 @@ public class ModificarOrdenController extends BaseController {
     private ObservableList<Procedimiento> listaProcedimientos = FXCollections.observableArrayList();
 
 
-    // INICIALIZACIÓN
+    //Inicialización
 
 
     public void setOrden(Orden orden) {
@@ -124,7 +124,7 @@ public class ModificarOrdenController extends BaseController {
     }
 
 
-    // CAMBIO DE INSTITUCIÓN
+    //Cambio de institución
 
 
     @FXML
@@ -139,7 +139,7 @@ public class ModificarOrdenController extends BaseController {
     }
 
 
-    // SELECCIÓN DE MÉDICO
+    //Selección Médico
 
 
     @FXML
@@ -181,7 +181,7 @@ public class ModificarOrdenController extends BaseController {
     }
 
 
-    // AGREGAR PROCEDIMIENTO
+    //Agregar Procedimiento
 
     @FXML
     public void onAgregarProcMod(ActionEvent event) {
@@ -241,7 +241,7 @@ public class ModificarOrdenController extends BaseController {
     }
 
 
-    // ELIMINAR PROCEDIMIENTO
+    //Eliminar Procedimiento
 
 
     @FXML
@@ -264,7 +264,7 @@ public class ModificarOrdenController extends BaseController {
     }
 
 
-    // GUARDAR CAMBIOS
+    //Guardar Cambios
 
 
     @FXML
@@ -314,7 +314,7 @@ public class ModificarOrdenController extends BaseController {
     }
 
 
-    // CANCELAR
+    //Cancelar
 
 
     @FXML
@@ -333,7 +333,7 @@ public class ModificarOrdenController extends BaseController {
     }
 
 
-    // HELPERS
+    //Helpers
 
 
     private void mostrarAlerta(String mensaje) {

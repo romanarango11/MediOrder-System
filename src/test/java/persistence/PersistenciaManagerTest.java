@@ -57,7 +57,7 @@ class PersistenciaManagerTest {
         Files.writeString(filePath, contenido);
     }
 
-    // ==================== TEST 1: Guardar y buscar paciente ====================
+    //Test 1: Guardar y buscar paciente
     @Test
     @Order(1)
     void testGuardarYPaciente() throws IOException {
@@ -78,7 +78,7 @@ class PersistenciaManagerTest {
         assertTrue(contenido.contains("123456"), "Debe contener el documento");
     }
 
-    // ==================== TEST 2: Leer pacientes ====================
+    //Test 2: Leer pacientes
     @Test
     @Order(2)
     void testLeerPacientes() throws IOException {
@@ -96,7 +96,7 @@ class PersistenciaManagerTest {
         assertTrue(fileContent.contains("222"), "Debe contener documento 222");
     }
 
-    // ==================== TEST 3: Buscar asesor ====================
+    //Test 3: Buscar asesor
     @Test
     @Order(3)
     void testBuscarAsesor() throws IOException {
@@ -112,7 +112,7 @@ class PersistenciaManagerTest {
         assertTrue(fileContent.contains("Maria Asesora"), "Debe contener nombre Maria Asesora");
     }
 
-    // ==================== TEST 4: Buscar CUPS ====================
+    //Test 4: Buscar CUPS
     @Test
     @Order(4)
     void testBuscarCups() throws IOException {
@@ -124,7 +124,7 @@ class PersistenciaManagerTest {
         assertEquals("Electrocardiograma", cupsEsperado[2]);
     }
 
-    // ==================== TEST 5: Buscar CIE-10 ====================
+    //Test 5: Buscar CIE-10
     @Test
     @Order(5)
     void testBuscarCie() throws IOException {
@@ -136,7 +136,7 @@ class PersistenciaManagerTest {
         assertEquals("Hipertensión esencial", cieEsperado[2]);
     }
 
-    // ==================== TEST 6: Leer instituciones ====================
+    //Test 6: Leer instituciones
     @Test
     @Order(6)
     void testLeerInstituciones() throws IOException {
@@ -155,7 +155,7 @@ class PersistenciaManagerTest {
         assertTrue(fileContent.contains("Medellín"), "Debe contener Medellín");
     }
 
-    // ==================== TEST 7: Guardar y leer órdenes ====================
+    //Test 7: Guardar y leer órdenes
     @Test
     @Order(7)
     void testGuardarYLeerOrdenes() throws IOException {

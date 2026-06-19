@@ -57,7 +57,7 @@ public class PrincipalController extends BaseController {
     @FXML private TableColumn<Procedimiento, Double> colSubtotal;
     @FXML private Label lblTotal;
 
-    // ---- TAB HISTORIAL ----
+    //Historial
     @FXML private TextField txtFiltroHistorial;
     @FXML private TableView<Orden> tablaHistorial;
     @FXML private TableColumn<Orden, Integer> colRadicado;
@@ -88,7 +88,7 @@ public class PrincipalController extends BaseController {
     }
 
 
-    // BÚSQUEDA DE PACIENTE
+    //Búsqueda paciente
 
 
     @FXML
@@ -112,7 +112,7 @@ public class PrincipalController extends BaseController {
     }
 
 
-    // LÓGICA CIE-10 y CUPS
+    // Lógica CIE-10 y CUPS
 
 
     @FXML
@@ -221,7 +221,7 @@ public class PrincipalController extends BaseController {
     }
 
 
-    // SELECCIÓN DE MÉDICO (ventana emergente)
+    // Selección médico (ventana emergente)
 
 
     @FXML
@@ -270,7 +270,7 @@ public class PrincipalController extends BaseController {
     }
 
 
-    // AGREGAR PROCEDIMIENTO A LA TABLA
+    //Agregar procedimiento a la tabla
 
 
     @FXML
@@ -363,7 +363,7 @@ public class PrincipalController extends BaseController {
     }
 
 
-    // REGISTRAR ORDEN
+    //Registrar orden
 
 
     @FXML
@@ -434,7 +434,7 @@ public class PrincipalController extends BaseController {
     }
 
 
-    // HISTORIAL
+    //Historial
 
 
     @FXML
@@ -537,7 +537,7 @@ public class PrincipalController extends BaseController {
     }
 
 
-    // CERRAR SESIÓN
+    //Cerrar sesión
 
 
     @FXML
@@ -547,7 +547,7 @@ public class PrincipalController extends BaseController {
     }
 
 
-    // CONFIGURACIÓN DE TABLAS
+    //Configuración Tablas
 
 
     private void configurarTablaProcs() {
