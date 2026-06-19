@@ -1,6 +1,6 @@
 package model;
 
-public class Procedimiento {
+public class    Procedimiento {
 
     private String cups;
     private String cie;

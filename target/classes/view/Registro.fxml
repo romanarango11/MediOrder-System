@@ -8,7 +8,7 @@
 
     <padding><Insets bottom="20" left="20" right="20" top="20" /></padding>
 
-    <!-- ToggleGroup definido ANTES de usarse -->
+    <!-- ToggleGroup definido antes de usarse -->
     <fx:define>
         <ToggleGroup fx:id="grupoDocs" />
     </fx:define>

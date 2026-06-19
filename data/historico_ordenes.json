@@ -138,5 +138,37 @@
     "asesorNombre": "Manuel Gonzalez",
     "asesorUltimaAccion": "a01",
     "nombreUltimaAccion": "Manuel Gonzalez"
+  },
+  {
+    "radicado": 63641,
+    "tipoDocumento": "CC",
+    "documento": "1002740364",
+    "nombrePaciente": "Carlos Felipe Arango Pineda",
+    "edad": 25,
+    "sexo": "M",
+    "plan": "Contributivo",
+    "afiliado": "SI",
+    "convenio": "SI",
+    "medicoId": "M114",
+    "medicoNombre": "Dr. Nestor Duarte",
+    "especialidad": "Neurología",
+    "institucion": "Clinica Marly",
+    "ciudadInstitucion": "Bogota",
+    "procedimientos": [
+      {
+        "cups": "870003",
+        "cie": "G800",
+        "descripcionCups": "RADIOGRAFÍA DE BASE DE CRÁNEO",
+        "descripcionCie": "PARALISIS CEREBRAL ESPASTICA CUADRIPLEJICA",
+        "cantidad": 2,
+        "valor": 597550.0
+      }
+    ],
+    "total": 1195100.0,
+    "estadoOrden": "ACTIVA",
+    "fechaEmision": "16/06/2026",
+    "fechaVencimiento": "16/10/2026",
+    "asesorId": "a01",
+    "asesorNombre": "Manuel Gonzalez"
   }
 ]

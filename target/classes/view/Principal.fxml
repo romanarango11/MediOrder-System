@@ -15,7 +15,7 @@
 
     <TabPane tabClosingPolicy="UNAVAILABLE" VBox.vgrow="ALWAYS">
 
-        <!-- ===================== TAB: NUEVA ORDEN ===================== -->
+        <!--NUEVA ORDEN -->
         <Tab text="Nueva Orden Médica">
             <ScrollPane fitToWidth="true">
                 <VBox spacing="15" styleClass="tab-content">
@@ -148,7 +148,7 @@
             </ScrollPane>
         </Tab>
 
-        <!-- ===================== TAB: HISTORIAL ===================== -->
+        <!-- HISTORIAL -->
         <Tab text="Historial de Órdenes">
             <VBox spacing="12" styleClass="tab-content">
                 <padding><Insets bottom="20" left="20" right="20" top="15" /></padding>
